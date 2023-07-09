@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="48.884" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="Users should be able to signup with their information" name="User register with their data - Example #1.1" time="24.901">
+<system-out><![CDATA[
+Given User goes to home page................................................passed
+And User closes popup.......................................................passed
+And User clicks on Account..................................................passed
+And User clicks on sign in..................................................passed
+When User enters email address "abdullah29204@hotmail.com"..................passed
+And User clicks on first continue...........................................passed
+And User fills password "@Bdullah1234"......................................passed
+And User fills confirm password "@Bdullah1234"..............................passed
+And User clicks on second continue..........................................passed
+And User enters first name "Abdullah" and last name "Mostafa" and "01223344556".passed
+And User clicks on third continue...........................................passed
+And User selects gender "M".................................................passed
+And User selects birthdate "02-27-1992".....................................passed
+And User accepts terms and conditions.......................................passed
+And User clicks on fourth continue..........................................passed
+Then User logout from his account...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="User could login Successfully to their accounts , shopping and add selected items to the cart" name="User could login with valid data successfully - Example #1.1" time="23.873">
+<system-out><![CDATA[
+Given User goes to home page................................................passed
+And User clicks on Account..................................................passed
+And User clicks on sign in..................................................passed
+And User enters email address "abdullah29204@hotmail.com"...................passed
+And User clicks on first continue...........................................passed
+And User fills password "@Bdullah1234"......................................passed
+And User clicks on fifth continue...........................................passed
+Then User goes to home page.................................................passed
+And User hovers to SuperMarket..............................................passed
+And User selects Bakery.....................................................passed
+And User adds first item to the cart "TODO".................................passed
+And User adds second item to the cart "Lino"................................passed
+And User goes to Cart page..................................................passed
+Then User checks for items availability.....................................passed
+And User check for price accuracy...........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
