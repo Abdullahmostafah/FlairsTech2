@@ -6,7 +6,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import static com.flairtech.testbases.TestBase.*;
+import static com.flairstech.testbases.TestBase.*;
 
 public class RegistrationPage {
     WebDriver driver;

@@ -1,7 +1,7 @@
 package com.flairtech.stepdefinitions;
 
 import com.flairtech.pages.RegistrationPage;
-import com.flairtech.testbases.TestBase;
+import com.flairstech.testbases.TestBase;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;

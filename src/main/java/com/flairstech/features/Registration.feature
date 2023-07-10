@@ -23,6 +23,6 @@ Feature: Users should be able to signup with their information
 
     Examples:
       | email | password |  firstname | lastname | phonenumber | gender | birthdate |
-      | abdullah29205@hotmail.com | @Bdullah1234 | Abdullah | Mostafa | 01223344556 | M | 02-27-1992 |
+      | abdullah292049@hotmail.com | @Bdullah1234 | Abdullah | Mostafa | 01223344556 | M | 02-27-1992 |
 
 # Change email to be able to signup successfully because this is used before

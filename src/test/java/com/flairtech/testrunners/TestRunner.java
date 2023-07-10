@@ -6,7 +6,7 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions
         (
-                features = "src/main/resources/features",
+                features = "src/main/java/com/flairstech/features",
                 glue = "com.flairtech.stepdefinitions",
                 tags = "@smoke",
                 plugin = { "pretty",

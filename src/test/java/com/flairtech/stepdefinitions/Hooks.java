@@ -1,6 +1,6 @@
 package com.flairtech.stepdefinitions;
 
-import com.flairtech.testbases.TestBase;
+import com.flairstech.testbases.TestBase;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 
@@ -14,8 +14,7 @@ public class Hooks extends TestBase {
     }
 
     @After
-    public static void quitBrowser () throws InterruptedException {
-        Thread.sleep(3000);
+    public static void quitBrowser () {
         driver.quit();
     }
 

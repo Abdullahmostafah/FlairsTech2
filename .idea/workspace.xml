@@ -4,26 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="19bcbfbd-87dd-4df1-8a7c-db17adc9a781" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/flairstech/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/features/Registration.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/features/Shopping.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/flairtech/pages/AddtoCartPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/flairtech/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/flairtech/pages/RegistrationPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/flairtech/stepdefinitions/AddtoCartSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/flairtech/stepdefinitions/Hooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/flairtech/stepdefinitions/LoginSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/flairtech/stepdefinitions/RegistrationSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/flairtech/testbases/TestBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/flairtech/testrunners/TestRunner.java" afterDir="false" />
+    <list default="true" id="19bcbfbd-87dd-4df1-8a7c-db17adc9a781" name="Changes" comment="First Commit After Update">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/flairstech/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/Registration.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/flairstech/features/Registration.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/Shopping.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/flairstech/features/Shopping.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/flairtech/pages/AddtoCartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/flairtech/pages/AddtoCartPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/flairtech/pages/RegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/flairtech/pages/RegistrationPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/flairtech/stepdefinitions/AddtoCartSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/flairtech/stepdefinitions/AddtoCartSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/flairtech/stepdefinitions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/flairtech/stepdefinitions/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/flairtech/stepdefinitions/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/flairtech/stepdefinitions/LoginSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/flairtech/stepdefinitions/RegistrationSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/flairtech/stepdefinitions/RegistrationSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/flairtech/testbases/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/flairstech/testbases/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/flairtech/testrunners/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/flairtech/testrunners/TestRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,9 +49,9 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_opened_file_path": "C:/Users/abdul/IdeaProjects/FlairsTech2/src/main/resources/features",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Global Libraries",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -67,29 +60,11 @@
       <recent name="C:\Users\abdul\IdeaProjects\FlairsTech2\src\test\java\com\flairstech" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\abdul\IdeaProjects\FlairsTech2\src\main\java\com\flairstech" />
       <recent name="C:\Users\abdul\IdeaProjects\FlairsTech2\src\test\java\com\flairtech" />
     </key>
   </component>
   <component name="RunManager" selected="TestNG.TestRunner (1)">
-    <configuration name="Feature: Login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/Login.feature" />
-      <option name="GLUE" value="com.flairtech.stepdefinitions" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="FlairsTech2" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: Login" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Feature: Registration" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/Registration.feature" />
@@ -118,6 +93,26 @@
       <option name="NAME_FILTER" value="^User could login with valid data successfully$" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User could login with valid data successfully$&quot;" />
       <option name="SUGGESTED_NAME" value="Scenario: User could login with valid data successfully" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: User register with their data (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/java/com/flairstech/features/Registration.feature" />
+      <option name="GLUE" value="com.flairtech.stepdefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="FlairsTech2" />
+      <option name="NAME_FILTER" value="^User register with their data$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User register with their data$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: User register with their data" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -169,10 +164,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.TestRunner (1)" />
+        <item itemvalue="Cucumber Java.Scenario: User register with their data (1)" />
         <item itemvalue="Cucumber Java.Scenario: User could login with valid data successfully" />
         <item itemvalue="Cucumber Java.Feature: Registration" />
         <item itemvalue="Cucumber Java.Scenario: User register with their data" />
-        <item itemvalue="Cucumber Java.Feature: Login" />
       </list>
     </recent_temporary>
   </component>
@@ -185,6 +180,14 @@
       <option name="presentableId" value="Default" />
       <updated>1688837861609</updated>
     </task>
+    <task id="LOCAL-00001" summary="First Commit After Update">
+      <created>1688868277211</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1688868277211</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -197,5 +200,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First Commit After Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="First Commit After Update" />
   </component>
 </project>

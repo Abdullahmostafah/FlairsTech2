@@ -3,7 +3,7 @@ package com.flairtech.stepdefinitions;
 import com.flairtech.pages.LoginPage;
 import io.cucumber.java.en.And;
 
-import static com.flairtech.testbases.TestBase.driver;
+import static com.flairstech.testbases.TestBase.driver;
 
 public class LoginSteps {
     LoginPage login = new LoginPage(driver);

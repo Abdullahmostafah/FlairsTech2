@@ -1,6 +1,6 @@
 package com.flairtech.pages;
 
-import com.flairtech.testbases.TestBase;
+import com.flairstech.testbases.TestBase;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -26,7 +26,10 @@ public class AddtoCartPage {
     @FindBy(xpath = "//a[contains(text(),'Bakery')]")
     public WebElement bakeryTab;
 
-    @FindBy(xpath = "//h3[contains(text(),'TODO Brownies Cake - Pack of 8')]")
+    // @FindBy(xpath = "//h3[contains(text(),'TODO Brownies Cake - Pack of 8')]")
+    // ToDO is not available at supermarket
+//Molto Magnum Chocolate Stuffed Croissant – 24 Pcs
+    @FindBy(xpath = " //h3[contains(text(),'Molto Magnum Chocolate Stuffed Croissant – 24 Pcs')]")
     WebElement firstItem;
 
     @FindBy(xpath = "//*[@id=\"add-to-cart\"]/button")
@@ -50,8 +53,12 @@ public class AddtoCartPage {
     @FindBy (xpath = "/html/body/div[1]/header/section/div[2]/a")
     public WebElement cartButton;
 
-    @FindBy(xpath = "//h3[contains(text(),'TODO Brownies Cake - Pack of 8')]")
-    WebElement firstSelectedItem;
+
+     @FindBy(xpath = "//h3[contains(text(),'Molto Magnum Chocolate Stuffed Croissant – 24 Pcs')]")
+     WebElement firstSelectedItem;
+
+//    @FindBy(xpath = "//h3[contains(text(),'TODO Brownies Cake - Pack of 8')]")
+//    WebElement firstSelectedItem;
 
     @FindBy (xpath = "//h3[contains(text(),'Brownies - 350 G')]")
     WebElement secondSelectedItem;
@@ -59,8 +66,10 @@ public class AddtoCartPage {
         SoftAssert soft = new SoftAssert();
 
         String actualFirstItemName = firstSelectedItem.getText();
-        String expectedFirstItemName = "TODO Brownies Cake - Pack of 8";
-        soft.assertEquals(actualFirstItemName,expectedFirstItemName,"TODO not exists");
+       // String expectedFirstItemName = "TODO Brownies Cake - Pack of 8";
+        String expectedFirstItemName = "Molto Magnum Chocolate Stuffed Croissant – 24 Pcs";
+        soft.assertEquals(actualFirstItemName,expectedFirstItemName,"Molto Magnum not exists");
+       // soft.assertEquals(actualFirstItemName,expectedFirstItemName,"TODO not exists");
         //soft.assertTrue(actualFirstItemName.contains(expectedFirstItemName),"TODO not exists");
 
         String actualSecondItemName = secondSelectedItem.getText();
@@ -77,7 +86,8 @@ public class AddtoCartPage {
         SoftAssert soft = new SoftAssert();
 
         String actualCost = actualItemsCost.getText();
-        String expectedCost = "EGP 105.95";
+        String expectedCost = "EGP 279.00";
+        //String expectedCost = "EGP 105.95";
         soft.assertEquals(actualCost,expectedCost,"Actual cost not equals expected cost");
 
         soft.assertAll();

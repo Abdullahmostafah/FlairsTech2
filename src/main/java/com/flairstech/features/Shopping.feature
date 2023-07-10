@@ -26,6 +26,6 @@ Feature: User could login Successfully to their accounts , shopping and add sele
 
     Examples:
       | email | password |
-      | abdullah29205@hotmail.com | @Bdullah1234 |
+      | abdullah292049@hotmail.com | @Bdullah1234 |
 
   #Change email address with newly signed up ones
