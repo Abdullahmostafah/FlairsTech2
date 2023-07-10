@@ -1,7 +1,7 @@
 Feature: Users should be able to signup with their information
 
   @Test1 @smoke
-  Scenario Outline: User register with their data
+  Scenario Outline: User register with their info
     Given User goes to home page
     And User closes popup
     And User clicks on Account
@@ -23,6 +23,6 @@ Feature: Users should be able to signup with their information
 
     Examples:
       | email | password |  firstname | lastname | phonenumber | gender | birthdate |
-      | abdullah292049@hotmail.com | @Bdullah1234 | Abdullah | Mostafa | 01223344556 | M | 02-27-1992 |
+      | abdullahtest03@hotmail.com | @Bdullah1234 | Abdullah | Mostafa | 01223344556 | M | 02-27-1992 |
 
 # Change email to be able to signup successfully because this is used before

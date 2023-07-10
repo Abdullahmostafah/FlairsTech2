@@ -1,6 +1,6 @@
-package com.flairtech.stepdefinitions;
+package com.flairstech.stepdefinitions;
 
-import com.flairtech.pages.AddtoCartPage;
+import com.flairstech.pages.AddtoCartPage;
 import com.flairstech.testbases.TestBase;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
@@ -19,11 +19,10 @@ public class AddtoCartSteps {
         cart.bakeryTab.click();
     }
 
-    @When("User adds first item to the cart \"TODO\"")
+    @When("User adds first item to the cart \"Molto\"")
     public void User_adds_first_item_to_the_cart() throws InterruptedException {
         cart.firstItemtoCart();
     }
-
 
     @And ("User adds second item to the cart \"Lino\"")
     public void User_adds_second_item_to_the_cart() throws InterruptedException {
@@ -39,10 +38,10 @@ public class AddtoCartSteps {
     public void User_checks_for_items_availability(){
         cart.itemsAssertion();
     }
+
     @And ("User check for price accuracy")
     public void User_check_for_price_accuracy (){
         cart.priceAssertion();
     }
-
 
 }

@@ -1,4 +1,4 @@
-package com.flairtech.testrunners;
+package com.flairstech.testrunners;
 
 
 import io.cucumber.testng.AbstractTestNGCucumberTests;
@@ -7,7 +7,7 @@ import io.cucumber.testng.CucumberOptions;
 @CucumberOptions
         (
                 features = "src/main/java/com/flairstech/features",
-                glue = "com.flairtech.stepdefinitions",
+                glue = "com.flairstech.stepdefinitions",
                 tags = "@smoke",
                 plugin = { "pretty",
                         "html:target/cucumber.html",

@@ -13,7 +13,7 @@ Feature: User could login Successfully to their accounts , shopping and add sele
     Then User goes to home page
     And User hovers to SuperMarket
     And User selects Bakery
-    And User adds first item to the cart "TODO"
+    And User adds first item to the cart "Molto"
     And User adds second item to the cart "Lino"
     And User goes to Cart page
 
@@ -26,6 +26,6 @@ Feature: User could login Successfully to their accounts , shopping and add sele
 
     Examples:
       | email | password |
-      | abdullah292049@hotmail.com | @Bdullah1234 |
+      | abdullahtest03@hotmail.com | @Bdullah1234 |
 
   #Change email address with newly signed up ones

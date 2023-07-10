@@ -1,12 +1,11 @@
-package com.flairtech.stepdefinitions;
+package com.flairstech.stepdefinitions;
 
-import com.flairtech.pages.RegistrationPage;
+import com.flairstech.pages.RegistrationPage;
 import com.flairstech.testbases.TestBase;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 public class RegistrationSteps {
-
     RegistrationPage register = new RegistrationPage(TestBase.driver);
 
     @Given("User goes to home page")

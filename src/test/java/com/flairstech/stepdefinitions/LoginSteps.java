@@ -1,6 +1,6 @@
-package com.flairtech.stepdefinitions;
+package com.flairstech.stepdefinitions;
 
-import com.flairtech.pages.LoginPage;
+import com.flairstech.pages.LoginPage;
 import io.cucumber.java.en.And;
 
 import static com.flairstech.testbases.TestBase.driver;
@@ -12,4 +12,5 @@ public class LoginSteps {
     public void User_clicks_on_fifth_continue(){
         login.fifthContinueButton.click();
     }
+
 }

@@ -1,4 +1,4 @@
-package com.flairtech.pages;
+package com.flairstech.pages;
 
 import com.flairstech.testbases.TestBase;
 import org.openqa.selenium.WebDriver;

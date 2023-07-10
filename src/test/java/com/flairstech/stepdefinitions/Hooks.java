@@ -1,11 +1,10 @@
-package com.flairtech.stepdefinitions;
+package com.flairstech.stepdefinitions;
 
 import com.flairstech.testbases.TestBase;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 
 public class Hooks extends TestBase {
-
 
     @Before
     public static void openBrowser(){

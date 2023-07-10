@@ -12,6 +12,7 @@ public class TestBase {
     public static WebDriver driver = null;
 
     public static String browser = "chrome"; // or "firefox", "edge", etc.
+
     public static String URL =  "https://www.jumia.com.eg/";
 
 
@@ -19,7 +20,6 @@ public class TestBase {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
-
 
 public static void  initBrowser(){
         switch (browser) {
@@ -40,6 +40,7 @@ public static void  initBrowser(){
             }
             default -> throw new IllegalArgumentException("Invalid browser: " + browser);
         }
+
 }
 
 }
